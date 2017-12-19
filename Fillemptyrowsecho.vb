@@ -1,6 +1,6 @@
 If selectionbox.selected index = 0 Then
         Dim None = True
-            For i = 1 To column.max()
+        For i = 1 To column.max()
                 For j = 2 To maxtimerow 'get from time set funct (2 offset for )
                     If None = True Then
                         If Arr(i, j) <> Nothing Then
@@ -12,5 +12,5 @@ If selectionbox.selected index = 0 Then
                         End If
                     End If
                 Next
-            Next
-        End If
+        Next
+End If
